@@ -1,0 +1,102 @@
+
+.header {
+	background: #000;
+}
+
+.navbar {
+    overflow: auto;
+    padding-top: 20px;
+	padding-bottom: 20px;
+	/* position: fixed; */
+	/* top: 0; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+div.logo {
+    margin: 0 0 0 2.5%;
+    float: left;
+}
+
+div.logo:hover {
+    opacity: 0.8;
+}
+
+img {
+    max-width: 300px;
+}
+
+div.button {
+    margin: 0 2.5% 0 0;
+    float: right;
+}
+
+div.button:hover {
+    opacity: 0.8;
+}
+
+a.button {
+    background: #3e6ac4;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.top-section, .bottom-section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    margin-top: 90px;
+}
+
+.number-data {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.crypto-logo {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    /* justify-content: flex-start; */
+    text-align: center;
+    padding: 0 0 110px 0;
+}
+
+.crypto-logo div {
+    padding: 20px 0;
+}
+
+.crypto-logo p, h2 {
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+.footer {
+    background: #000;
+	color:#999;
+}
+
+.disclaimer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    line-height: 150%;
+    padding: 50px 0 10px 0;
+}
+
+.footer p {
+    font-size: 0.75em;
+    color: rgb(168, 177, 189);
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+}
